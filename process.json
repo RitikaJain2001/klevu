@@ -1,0 +1,23 @@
+{
+
+    "apps": [{
+
+        "name" : "KLEVU",
+
+        "script" : "src/jobs/fetching_Product_data.js",
+
+        "env" : {
+
+            "PORT" : 6000
+
+        },
+
+        "env_production" : {
+
+            "PORT" : 6040
+
+        }
+
+    }]
+
+}
